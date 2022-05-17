@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomer.Api", "CloudCustomer.Api\CloudCustomer.Api.csproj", "{58C49B88-CD33-41C6-9B4F-19EAF8963B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomer.UnitTests", "CloudCustomer.UnitTests\CloudCustomer.UnitTests.csproj", "{489D22DB-3EA1-420C-BA9C-B9909906EECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58C49B88-CD33-41C6-9B4F-19EAF8963B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C49B88-CD33-41C6-9B4F-19EAF8963B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C49B88-CD33-41C6-9B4F-19EAF8963B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C49B88-CD33-41C6-9B4F-19EAF8963B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489D22DB-3EA1-420C-BA9C-B9909906EECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489D22DB-3EA1-420C-BA9C-B9909906EECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489D22DB-3EA1-420C-BA9C-B9909906EECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489D22DB-3EA1-420C-BA9C-B9909906EECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
