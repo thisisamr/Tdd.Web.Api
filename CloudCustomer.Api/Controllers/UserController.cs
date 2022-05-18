@@ -6,11 +6,24 @@ namespace CloudCustomer.Api.Controllers;
 [Route("[controller]")]
 public class UserController : ControllerBase
 {
-  
+    private readonly IUserService _userService;
+
+    public UserController(IUserService userService)
+    {
+        _userService = userService;
+    }
 
     [HttpGet(Name = "GetUsers")]
     public async Task<IActionResult> Get()
     {
-        return null;
+        var users = await _userService.GetAllUsers();
+        if (users.Any())
+        {
+            return Ok(users);
+        }
+        else
+        {
+            return NotFound();
+        }
     }
 }
